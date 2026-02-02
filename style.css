@@ -6,10 +6,14 @@
 }
 body{
     background-color: aqua;
-   
-h1{
-    font-size: 10vw;
-    
-    
-    
+
+.cont{
+    height: 20vmax;
+    width: 20vmin;
+    background-color: yellow;
+}
+div{
+    height: 1em;
+    width:5em;
+    background-color: white;
 }
