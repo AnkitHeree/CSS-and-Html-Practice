@@ -1,0 +1,82 @@
+
+/*Learning about units px, % , vh , vw ,rem ,vmin , vmax ,ch , lh */
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{   /*px ye screen ke pixels par depend krta hai jise hm jitna chahe utna set kar skte hai*/
+    height: 500px;
+    width: 500px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    width: 100px;  /* same px ye screen ke pixels par depend krta hai jise hm jitna chahe utna set kar skte hai*/
+    height: 100px;
+    background-color: aqua;
+}
+
+.two{
+    width: 10%;   /*% mtlb tumhare parent ka ak bhag example ye website ke screen size par depend krta hai body ka 5 % mtlb sir 5 percent he lega*/
+    height: 10%;
+    background-color: rgb(0, 255, 0);
+}
+
+.three{
+    width: 10vw;    /*ye screen ke weidth ke hisab ke chota ya bda hoga*/
+    height: 10vw;
+    background-color: rgb(102, 255, 0);
+}
+
+.four{
+    width: 10vh;   /*ye heigth ke hisab se chota ya bda hoga*/
+    height: 10vh;
+    background-color: rgb(255, 238, 0);
+}
+
+.five{  
+    width: 10vmax;   /*ab ye vmax mtlb height and width par depend krta hai agr heigt km hai to ye width par cala jayega aur agr width km hai to hight par shift ho jaye gaa*/
+    height: 10vmax;
+    background-color: rgb(255, 0, 0);
+}
+
+.six{
+    width: 10vmin;    /*same here but oposite*/
+    height: 10vmin;
+    background-color: rgb(255, 0, 221);
+}
+
+.parent{   /*ye hmara parent hai em ka*/
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    background-color: black;
+}
+.seven{
+    width: 2em;   /*ye hmara parent and child ka relation hota hai agr parent ka font 10 px hai aur hmne child font 2em kiya to 
+                    child parent ka 2 guna space lega*/
+    height: 2em;
+    font-size: 3em;  
+    background-color: rgb(6, 48, 112);
+}
+
+.eight{
+    width: 10rem;   /*ye jo hota hai o pixel ka he part hota hai jaise 2rem=16px hota hai 3 rem = 64 px*/
+    height: 10rem;
+    background-color: rgb(97, 3, 34);
+}
+
+.nine{
+    width: 10ch;   /*ye hmare child hai parent ka  hai for ch iska use hota hai limited txt ko ak line me rkhne me*/
+    background-color: rgb(27, 19, 39);
+}
