@@ -8,6 +8,10 @@ body{
 }
 
 p{
-    color: rgb(90,26,66);
-    background-color: rgb(67,87,97);
+    
+   /* background-color: rgb(67,87,97); */
+
+   /*Hex */
+
+    background-color: #1a1a1a; /* 0- 9-a-f */
 }
