@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;  /*universal selector*/
+    color:yellow;
+}
+
+h1{
+    background-color: #123456; /* element se direct select*/
+}
+
+#id{
+    color:white;
+    background-color: #2a2a2a; /* id Selector*/
+}
+
+
+.class{           /* class selector*/
+
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #a0a09b; 
+    background-color: #1a1a1a; 
+}
