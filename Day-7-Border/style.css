@@ -1,13 +1,17 @@
 #div1{
+    text-align: center;
 width: 100px;
 height: 100px;
 background-color: yellow;
 columns: black;
 margin-bottom: 20px;
-border: 2px solid red;
+border: 2px;
+border-style: solid;  /* ye teen use krne ki jgh bass hm, 1 use krenge lol 😨*/
+border-color: red;
 }
 
 #div2{
+    text-align: center;
 width: 100px;
 height: 100px;
 background-color: rgb(0, 255, 98);
@@ -17,6 +21,7 @@ border: 2px dotted blue;
 }
 
 #div3{
+text-align: center;
 width: 100px;
 height: 100px;
 background-color: rgb(0, 204, 255);
