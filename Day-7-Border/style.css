@@ -1,0 +1,26 @@
+#div1{
+width: 100px;
+height: 100px;
+background-color: yellow;
+columns: black;
+margin-bottom: 20px;
+border: 2px solid red;
+}
+
+#div2{
+width: 100px;
+height: 100px;
+background-color: rgb(0, 255, 98);
+columns: black;
+margin-bottom: 20px;
+border: 2px dotted blue;
+}
+
+#div3{
+width: 100px;
+height: 100px;
+background-color: rgb(0, 204, 255);
+columns: black;
+margin-bottom: 20px;
+border: 2px dashed rgb(0, 0, 0); /*border */
+}
