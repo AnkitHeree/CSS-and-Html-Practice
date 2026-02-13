@@ -1,0 +1,48 @@
+#one{
+    background-color: yellow;
+    display: inline;  /* mtlb ki ap apna div block element se htke inline element bn jaye mtl sirf utna he space lega jitne me text aa jaye*/
+
+}
+
+button{
+    display: block;  /*ab ye babua block element bn jayega*/
+}
+
+.div1{
+   width: 100px; 
+   height: 100px;
+   background-color: red;
+   margin: 20px;
+   padding: 20px;
+   border: 2px solid black;
+   display:inline-block;
+}
+.div2{
+   width: 100px; 
+   height: 100px;
+   background-color: red;
+   margin: 20px;
+   padding: 20px;
+   border: 2px solid black;
+   display:inline;
+}
+
+.div3{
+   width: 100px; 
+   height: 100px;
+   background-color: red;
+   margin: 20px;
+   padding: 20px;
+   border: 2px solid black;
+   display:none;
+}
+
+.div3{
+   width: 100px; 
+   height: 100px;
+   background-color: red;
+   margin: 20px;
+   padding: 20px;
+   border: 2px solid black;
+   visibility: hidden;  /*Mtlb box nhi dikhega but uski jgh reservee rhegi*/
+}
