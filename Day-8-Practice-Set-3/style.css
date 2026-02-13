@@ -1,16 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .divofnav{
 height: 40px;
 width: 100%;
 background-color: black;
 color: aliceblue;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 font-size: 100%;
 }
 
 #Amazon{
-    
+    margin-left: 70px;
     color: yellow;
     font-size:30px;
     
@@ -24,9 +29,16 @@ a{
 #Button{
 margin-right:90px ;
 background-color: yellow;
+border-radius: 5px;
+font-size: 20px;
 }
 
 #SearchBox{
 display: flex;
 gap: 10px;
+
+}
+
+input{
+    border-radius: 20px;
 }
