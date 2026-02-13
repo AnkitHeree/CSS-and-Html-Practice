@@ -37,8 +37,10 @@ font-size: 20px;
 display: flex;
 gap: 10px;
 
+
 }
 
 input{
     border-radius: 20px;
+    text-align: center;
 }
