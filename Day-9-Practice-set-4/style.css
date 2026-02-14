@@ -52,6 +52,7 @@ input{
 }
 
 .divspace{
+    height: 500px;
     background-color: rgb(240, 232, 232);
    margin-top: 20px;
    margin: 4px 4px 4px 4px;
