@@ -16,14 +16,17 @@ display: inline-block;
 
 .box2{
     position: static;   /*ye defailt position hoti hai */
+    top: 50px;
 }
 
 .box3{
     position: absolute;  /*parent = ancestor  absulute ye parent ke ke relative khud ko shift krta hai */
-    top: 20px;
+    top: 40px;
     left: 90px;
 }
 
-.box3{
-    position:fixed;  
+.box4{
+    position:fixed;  /*mtlb isse ak bar jha fix kr diya vhi ahega iska mostly us header anf footer ke liye hota hai*/
+    top: 40px;
+    left: 200px;
 }
