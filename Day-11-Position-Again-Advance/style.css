@@ -5,7 +5,7 @@
 }
 .box {
     width: 80vw;
-    height: 444px;
+    height: 700px;
     padding: 3px;
     margin: 3px;
     border: 2px solid black;
@@ -14,7 +14,7 @@
     padding: 43px;
     margin: 34px;
     border: 2px solid purple;
-    /* position: absolute; */
+     position: absolute; 
 
 }
 
@@ -26,15 +26,15 @@
     width: 200px;
     z-index: 1;
     
-    /* position: relative;
+     /* position: relative;
     top: 20px;
-    left: 70px; */
+    left: 70px;  */
 }
 
 .box2 {
     background-color: yellow;
-    /* position: absolute;
-    top: 2px; */
+     position: absolute;
+    top: 2px;
 
 }
 
