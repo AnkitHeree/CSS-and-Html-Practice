@@ -25,7 +25,18 @@ body{
     height: 50px;
     background-color: rgb(32, 32, 22);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
+}
+
+.ch div{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 @media screen and (max-width:900px)
@@ -44,6 +55,14 @@ body{
     background-color: rgb(20, 161, 143);
     border: 2px solid rgb(168, 35, 35);
     border-radius: 30px;
+    }
+
+    .ch div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(219, 30, 30);
+    border: 2px solid rgb(51, 34, 34);
+    border-radius: 50px;
     }
 
 
@@ -67,6 +86,13 @@ body{
     border-radius: 20px;
     }
 
+    .ch div{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(65, 209, 8);
+    border: 2px solid rgb(51, 34, 34);
+    border-radius: 10px;
+    }
 
 }
 
