@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+     background-image: url("./pexels-algernon-36163873.jpg");
+    background-size:cover;    /* cover , contain , auto*/
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: yellow;
+    background-image: url("./pexels-ken-frank-849406976-19546609.jpg");
+    background-size: cover;    
+
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: yellow;
+    background-image: url("./pexels-merna-rakha-589037225-17165342.jpg");
+    background-size: contain;    
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: yellow;
+    background-image: url("./pexels-algernon-36163873.jpg");
+    background-size: auto;    /* cover , contain , auto*/
+
+}
