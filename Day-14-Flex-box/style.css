@@ -168,11 +168,13 @@ h2{
 
 .container12{
     width: 400px;
-    height: 400px;
+    height: 250px;
      border: 2px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items:flex-end;
+    row-gap: 4px;
+    column-gap: 4px;
 }
