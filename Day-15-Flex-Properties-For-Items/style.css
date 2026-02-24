@@ -1,0 +1,47 @@
+div{
+    width: 100px;
+    height: 150px;
+    border: 2px solid black;
+    display:inline-block
+    
+}
+
+.container{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.box1{
+   
+    background-color: aqua;
+   flex-grow: 1;
+   
+}
+
+.box2{
+   
+    background-color: rgb(94, 255, 0);
+    flex-grow: 2;
+}
+
+.box3{
+    background-color: rgb(255, 0, 85);
+}
+
+.box4{
+    
+    background-color: aqua;
+  
+    
+}
+.box5{
+    
+    background-color: rgb(255, 208, 0);
+ 
+    
+}
