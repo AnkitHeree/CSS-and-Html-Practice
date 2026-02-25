@@ -119,13 +119,13 @@ align-items: center;
 .responsive{
     color: yellow;
     font-size: 1rem;
-    width: 25vw;
-    height: 25vh;
+    width: 50%;
+    height: 50%;
     background-color: green;
 }
 .container{
-    width: 50vw;
-    height: 50vh;
+    width: 75vw;
+    height: 75vh;
     background-color: yellow;
 }
 
