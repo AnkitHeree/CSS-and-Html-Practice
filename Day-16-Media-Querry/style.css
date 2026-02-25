@@ -3,6 +3,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+   
+}
+
+.container{
+     width: 100vw;
+    height: 100vh;
+    background-color: rgb(31, 29, 29);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .responsive{
@@ -11,12 +25,92 @@ body{
     background-color: red;
     border: 2px solid black;
     border-radius: 10px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    text-align: center;
    font-weight: 500;
    font-size: 3rem;
 }
+
+.gray{
+width: 50vw;
+height: 50vh;
+background-color: gray;
+border: 2px solid black;
+border-radius: 10px;
+display:flex ;
+justify-content: center;
+align-items: center;
+}
+
+.white{
+width: 50%;
+height: 50%;
+background-color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius: 10px;
+display:flex ;
+justify-content: center;
+align-items: center;
+}
+
+.red{
+width: 50%;
+height: 50%;
+background-color: rgb(252, 0, 0);
+border: 2px solid black;
+border-radius: 10px;
+display:flex ;
+justify-content: center;
+align-items: center;
+}
+
+
+.blue{
+   width: 50%;
+height: 50%;
+background-color: rgb(6, 30, 245);
+border: 2px solid black;
+border-radius: 10px;
+display:flex ;
+justify-content: center;
+align-items: center;
+} 
+
+
+.green{
+   width: 50%;
+height: 50%;
+background-color: rgb(4, 248, 4);
+border: 2px solid black;
+border-radius: 10px;
+display:flex ;
+justify-content: center;
+align-items: center;
+} 
+
+
+.pink{
+   width: 50%;
+height: 50%;
+background-color: rgb(248, 4, 167);
+border: 2px solid black;
+border-radius: 10px;
+display:flex ;
+justify-content: center;
+align-items: center;
+} 
+
+
+.orange{
+   width: 50%;
+height: 50%;
+background-color: rgb(255, 136, 0);
+border: 2px solid black;
+border-radius: 10px;
+display:flex ;
+justify-content: center;
+align-items: center;
+} 
+
 
 @media(max-width:601px){
 .responsive{
@@ -25,4 +119,15 @@ body{
     width: 25vw;
     height: 25vh;
 }
+.container{
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+}
+
+.gray{
+    width: 50%;
+    height: 50%;
+}
+
 }
