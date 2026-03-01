@@ -5,7 +5,7 @@
     background-color: red;
 }
 
-.ankit:hover{
+ .ankit:hover{
 width: 120px;
 background-color: yellow;
 text-align: center;
@@ -13,4 +13,8 @@ color: green;
 font-size: 1rem;
 font-weight: 600;
 cursor:pointer;
+} 
+
+.ankit:active{
+    background-color: blue;
 }
