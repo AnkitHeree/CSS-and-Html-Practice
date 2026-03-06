@@ -1,84 +1,154 @@
-
-body{
+body {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
-.transp{
+
+.transp {
     width: 100px;
     height: 100px;
+    margin-top: 5px;
     background-color: yellow;
     border: 2px solid black;
-    transform: rotate(45deg);
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    /* transform: rotate(45deg); */
 }
 
-.transp1{
+.transp:hover {
+    transform: rotate(180deg);
+}
+
+.transp1 {
     width: 100px;
     height: 100px;
+    margin-top: 5px;
     background-color: yellow;
     border: 2px solid black;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    /* transform: rotateX(85deg); */
+}
+
+.transp1:hover {
     transform: rotateX(85deg);
 }
 
-.transp2{
+.transp2 {
     width: 100px;
     height: 100px;
+    margin-top: 5px;
     background-color: yellow;
     border: 2px solid black;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    /* transform: rotateY(60deg); */
+}
+
+.transp2:hover {
     transform: rotateY(60deg);
 }
 
-.transp3{
+.transp3 {
     width: 100px;
     height: 100px;
+    margin-top: 5px;
     background-color: yellow;
     border: 2px solid black;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    /* transform: rotateZ(90deg); */
+}
+
+.transp3:hover {
     transform: rotateZ(90deg);
 }
 
-.scale1{
+.scale1 {
     width: 100px;
     height: 100px;
     background-color: red;
     border: 2px solid black;
+    /* transform: scale(2); */
+    margin-top: 100px;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.scale1:hover {
     transform: scale(2);
- margin-top: 100px;
 }
 
-.scale2{
+.scale2 {
     width: 100px;
     height: 100px;
     background-color: red;
     border: 2px solid black;
+    /* transform: scale(0.5); */
+    margin-top: 100px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.scale2:hover {
     transform: scale(0.5);
- margin-top: 100px;
 }
 
-.scale3{
+
+.scale3 {
     width: 100px;
     height: 100px;
     background-color: red;
     border: 2px solid black;
+    /* transform: scale(1, 2); */
+    margin-top: 100px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.scale3:hover {
     transform: scale(1,2);
- margin-top: 100px;
 }
 
-.scale4{
+
+.scale4 {
     width: 100px;
     height: 100px;
     background-color: red;
     border: 2px solid black;
+    /* transform: scaleX(0.5); */
+    margin-top: 100px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.scale4:hover {
     transform: scaleX(0.5);
- margin-top: 100px;
 }
 
-.scale5{
+
+.scale5 {
     width: 100px;
     height: 100px;
     background-color: red;
     border: 2px solid black;
+    /* transform: scaleY(0.5); */
+    margin-top: 100px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.scale5:hover {
     transform: scaleY(0.5);
- margin-top: 100px;
 }
