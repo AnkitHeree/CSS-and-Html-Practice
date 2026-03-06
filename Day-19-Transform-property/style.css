@@ -1,0 +1,39 @@
+
+body{
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.transp{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    transform: rotate(45deg);
+}
+
+.transp1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    transform: rotateX(85deg);
+}
+
+.transp2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    transform: rotateY(60deg);
+}
+
+.transp3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    transform: rotateZ(90deg);
+}
+
