@@ -4,13 +4,14 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    color: rgb(16, 43, 10);
 }
 
 .transp {
     width: 100px;
     height: 100px;
     margin-top: 5px;
-    background-color: yellow;
+    background-color: rgb(0, 255, 85);
     border: 2px solid black;
     transition: all;
     transition-duration: 2s;
@@ -26,7 +27,7 @@ body {
     width: 100px;
     height: 100px;
     margin-top: 5px;
-    background-color: yellow;
+    background-color: rgba(0, 255, 85);
     border: 2px solid black;
     transition: all;
     transition-duration: 2s;
@@ -42,7 +43,7 @@ body {
     width: 100px;
     height: 100px;
     margin-top: 5px;
-    background-color: yellow;
+    background-color: rgb(0, 255, 85);
     border: 2px solid black;
     transition: all;
     transition-duration: 2s;
@@ -58,7 +59,7 @@ body {
     width: 100px;
     height: 100px;
     margin-top: 5px;
-    background-color: yellow;
+    background-color: rgb(0, 255, 85);
     border: 2px solid black;
     transition: all;
     transition-duration: 2s;
@@ -151,4 +152,84 @@ body {
 
 .scale5:hover {
     transform: scaleY(0.5);
+}
+
+.translate1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    /* transform: Translate(50px); */
+    margin-top: 100px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.translate1:hover {
+    transform: Translate(50px);
+}
+
+.translate2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    /* transform: Translate(50px); */
+    margin-top: 100px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.translate2:hover {
+    transform: TranslateX(-50px);
+}
+
+.translate3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    /* transform: Translate(50px); */
+    margin-top: 100px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.translate3:hover {
+    transform: TranslateY(50px);
+}
+
+.translate4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    /* transform: Translate(50px); */
+    margin-top: 100px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.translate4:hover {
+    transform: TranslateY(-50px);
+}
+
+.translate5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    /* transform: Translate(50px); */
+    margin-top: 10px;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.translate5:hover {
+    transform: Translate(50px,-50px);
 }
