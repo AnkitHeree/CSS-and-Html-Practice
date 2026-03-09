@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(214, 201, 201);
+}
+
+.container{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    gap: 5px;
+}
+
+.box{
+    height: 300px;
+    width: 200px;
+}
+
+.first{
+    background-color: rgb(255, 0, 0);
+}
+
+.second{
+   background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.child{
+    height: 140px;
+    background-color: yellow;
+    text-align: center;
+}
