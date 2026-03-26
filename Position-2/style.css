@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 200vh;
+}
+
+.container{
+height: 100px;
+background-color: black;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+position: sticky;
+top:0px;
+}
+
+.divs{
+   
+    background-color: yellow;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    margin-top: 5px
+}
+
+.blue{
+    background-color: blue;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.red{
+    background-color: red;
+}
+
