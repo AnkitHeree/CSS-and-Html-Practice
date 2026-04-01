@@ -1,0 +1,50 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 4px;
+    color: red;
+    margin: 4px;
+}
+
+span{
+    border: 1px solid rgba(190, 87, 87, 0.603);
+    border-radius: 50px;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+section{
+    background-color: rgba(17, 17, 17, 0.863);
+}
+
+h2{
+    text-align: center;
+}
+
+.art{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+
+.art2{
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 0.8rem;
+   padding-bottom: 4px;
+}
