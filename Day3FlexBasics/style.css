@@ -5,6 +5,10 @@
     
 }
 
+:root{
+    --bordColor:black
+}
+
 .Parent{
     width: 100%;
     height: 400%;
