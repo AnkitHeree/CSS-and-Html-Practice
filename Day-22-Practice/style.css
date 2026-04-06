@@ -1,0 +1,17 @@
+.container{
+    background-color: yellow;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+img{
+    width: 40%;
+    height: 40%;
+}
+
+
