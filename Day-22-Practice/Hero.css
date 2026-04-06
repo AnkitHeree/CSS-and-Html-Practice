@@ -74,8 +74,63 @@ h1{
     flex-direction: column;
 }
 
+.job{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.jobRole{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.jobRole h2 {
+    font-size: 0.9rem;
+    padding: 5px 0px;
+    text-align: left;
+}
+.jobRole p{
+    font-size: 0.6rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.remote{
+    padding-top: 10px;
+}
+
 .Form h2{
     padding: 10px;
+}
+
+h6{
+    text-align: left;
+    padding-top: 15px;
+    font-size: 0.5rem;
 }
 
 .formContainer{
