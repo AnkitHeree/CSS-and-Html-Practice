@@ -63,21 +63,16 @@ h1{
     padding: 10px 20px;
 }
 
-.Form{
+.job{
+    margin-top: 10px;
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    padding: 20px;
     color: white;
-    flex-direction: column;
+    padding: 20px;
 }
 
-.job{
-    margin-top: 30px;
+.job1{
     background-color: black;
-    color: white;
+    color: rgb(48, 47, 47);
     padding: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -92,7 +87,7 @@ h2{
     background-color: white;
     width: 200px;
     border-radius: 20px;
-    color: black;
+    color: rgb(53, 51, 51);
     padding: 10px 10px;
     display: flex;
     flex-direction: column;
@@ -119,16 +114,13 @@ img{
 }
 
 .remote{
-    padding-top: 10px;
-}
-
-.Form h2{
-    padding: 10px;
+    padding-top: 4px;
+    font-weight: 700;
 }
 
 h6{
     text-align: left;
-    padding-top: 15px;
+    padding-top: 6px;
     font-size: 0.5rem;
 }
 
@@ -159,6 +151,110 @@ section .secp{
 section .secimg{
     width: 400px;
     height: 400px;
+}
+
+/* Types of Civilization */
+
+.typeof{
+    background-color: black;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.civilization{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 5px;
+    padding: 30px 0px;
+}
+
+.civil1{
+    width:200px;
+    margin-top: 10px;
+}
+
+.civilimg{
+    width: 100px;
+    height: 100px;
+}
+
+.civilp{
+    color: white;
+}
+
+/* proof */
+
+.proof{
+    background-color: black;
+    padding: 40px 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.civil{
+    background-color: white;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+.proof2{
+    color: white;
+    padding: 20px 0px;
+}
+
+/* Story */
+
+.story{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.images img{
+    width: 300px;
+    height: 300px;
+}
+
+.storyscript{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+
+
+/* form */
+
+.Form{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+    flex-direction: column;
+}
+
+.Form h2{
+    padding: 10px;
 }
 
 .formContainer{
