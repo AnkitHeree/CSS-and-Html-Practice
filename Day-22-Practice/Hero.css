@@ -5,19 +5,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root{
+    --Header-color:white;
+    --background-color:rgb(96, 112, 89);
+    --Section-background-color:rgb(179, 223, 139);
+    --font-color:rgba(2, 36, 5, 0.808);
+    --div-color:rgb(83, 228, 64);
+    
+}
+
 body{
     height: 100vh;
     text-align: center;
 }
 
 .navbar{
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: black;
-    color: white;
+    color:var(--Header-color);
+    position:fixed;
+    top: 0px;
+    border-bottom: 1px solid white;
 }
 
 .logo{
@@ -38,12 +51,13 @@ h1{
 
 .hero{
     height: 50vh;
-    background-color: black;
+    background-color:var(--Section-background-color);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: white;
+    color: var(--font-color);
     padding: 20px;
+    margin-top: 50px;
 }
 
 .heroText{
@@ -60,19 +74,20 @@ h1{
 }
 
 .heroBtn{
+    margin-top: 10px;
     padding: 10px 20px;
 }
 
 .job{
     margin-top: 10px;
-    background-color: black;
-    color: white;
+    background-color: var(--Section-background-color);
+    color: var(--font-color);
     padding: 20px;
 }
 
 .job1{
-    background-color: black;
-    color: rgb(48, 47, 47);
+    background-color: var(--Section-background-color);
+    color: var(--font-color);
     padding: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -84,10 +99,10 @@ h2{
 }
 
 .jobRole{
-    background-color: white;
+    background-color:var(--background-color);
     width: 200px;
     border-radius: 20px;
-    color: rgb(53, 51, 51);
+    color: var(--font-color);
     padding: 10px 10px;
     display: flex;
     flex-direction: column;
@@ -129,8 +144,8 @@ h6{
 .content{
     margin-top: 10px;
     padding: 30px;
-    background-color: black;
-    color: white;
+    background-color:var(--Section-background-color);
+    color: var(--font-color);
     display: flex;
     justify-content: center;
 }
@@ -140,7 +155,7 @@ h6{
 }
 
 section h1{
-    color: white;
+    color:var(--font-color);
 }
 
 section .secp{
@@ -149,14 +164,14 @@ section .secp{
 }
 
 section .secimg{
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 50%;
 }
 
 /* Types of Civilization */
 
 .typeof{
-    background-color: black;
+    background-color: var(--Section-background-color);
     margin-top: 10px;
     padding: 20px;
 }
@@ -180,22 +195,23 @@ section .secimg{
 }
 
 .civilp{
-    color: white;
+    color:var(--font-color);
 }
 
 /* proof */
 
 .proof{
-    background-color: black;
+    background-color: var(--Section-background-color);
     padding: 40px 10px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: var(--font-color);
 }
 
 .civil{
-    background-color: white;
+    background-color:var(--div-color);
     height: 50px;
     border-radius: 20px;
     display: flex;
@@ -206,15 +222,15 @@ section .secimg{
 }
 
 .proof2{
-    color: white;
+    color: var(--font-color);
     padding: 20px 0px;
 }
 
 /* Story */
 
 .story{
-    background-color: black;
-    color: white;
+    background-color: var(--Section-background-color);
+    color: var(--font-color);
     padding: 20px 20px;
     margin-top: 10px;
     display: flex;
@@ -235,7 +251,7 @@ section .secimg{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: white;
+    color: var(--font-color);
 }
 
 
@@ -243,13 +259,13 @@ section .secimg{
 /* form */
 
 .Form{
-    background-color: black;
+    background-color: var(--Section-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     padding: 20px;
-    color: white;
+    color: var(--font-color);
     flex-direction: column;
 }
 
@@ -258,8 +274,8 @@ section .secimg{
 }
 
 .formContainer{
-    background-color: rgb(255, 255, 255);
-    color: white;
+    background-color: var(--div-color);
+    color: var(--font-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,4 +291,51 @@ input{
 button{
     padding: 10px 20px;
     background-color: green;
+}
+
+@media(max-width:768px){
+
+    .navbar{
+
+    }
+
+    .logo{
+    font-size: 1.3rem;
+    font-weight: 600;
+
+
+}
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+       gap: 20px;
+    }
+
+    .content h1{
+        font-size: 1.5rem;
+}
+
+.proof{
+   font-size: 0.6rem;
+}
+
+a{
+    
+    font-size: 0.8rem;
+}
+
+    .job1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .civilization{
+        flex-direction: column;
+    }
+
+    .story{
+        flex-direction: column;
+    }
 }
