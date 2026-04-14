@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="input" placeholder="enter Your Number">
+    <small id="error"></small>
+    <button id="Btn">Cheak</button>
+    <small id="output"></small>
+
+    <script>
+
+        let input = document.querySelector("#input")
+        let msgError = document.querySelector("#error")
+        let Output = document.querySelector("#output")
+        let CheakBtn = document.querySelector("#Btn")
+
+        CheakBtn.addEventListener("click" ,function(){
+
+            msgError.innerText = "";
+            Output.innerText = "";
+            let userEnterd = input.value.trim();
+
+             if(userEnterd === ""){
+                    msgError.innerText = "Please Enter A number"
+                    return;
+                }
+
+                let number = Number(userEnterd);
+
+            if(number % 2 === 0){
+                Output.innerText = "Even"
+                
+            }else{
+                 Output.innerText = "Odd"
+            }
+        })
+
+    </script>
+</body>
+</html>
