@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.formback{
+    width: 100%;
+    height: 100vh;
+}
+
+.form{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    </style>
+</head>
+<body>
+    <form class="formback">
+    <div class="form">
+      <input type="Email" class="email" placeholder="Enter Email">
+      <span class="errorEmail"></span>  
+
+      <input type="password" class="password" placeholder=" Enter Password">
+      <span class="errorPas"></span> 
+      
+
+      <button class = "button">Submit</button>
+
+    </div>
+    </form>
+
+   <script>
+
+     var Email = document.getElementsByClassName("email")[0];
+         var Password = document.getElementsByClassName("password")[0];
+          var errorEmail= document.getElementsByClassName("errorEmail")[0]
+          var errorPas= document.getElementsByClassName("errorPas")[0]
+          let Button = document.getElementsByClassName("button")[0]
+        
+          Button.addEventListener("click" ,function(e){
+            e.preventDefault();
+            if(Email.value === ""){
+                errorEmail.innerText = "Please Enter a Text"
+               errorEmail.style.color ="red"
+                errorEmail.style.background ="black"
+
+
+            }else if(Password.value ===""){
+                 errorPas.innerText = "Please Enter a Password"
+            }
+            else{
+                console.log("Subbmit Successfull")
+            }
+        })
+   </script>
+</body>
+</html>
